@@ -1,0 +1,85 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-image: url('../images/VoidHeart-ezgif.com-video-to-gif-converter.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+     min-height: 100vh;
+}
+
+img.rounded-corners {
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: 'Copperplate';
+  font-size: 55px;
+}
+
+h2 {
+  font-family: 'Teko';
+  font-size: 45px;
+}
+
+h3 {
+  font-family: 'Teko';
+  font-size: 45px;
+}
+
+h4 {
+  font-family: 'Teko';
+  font-size: 45px;
+}
+
+h5 {
+  font-family: 'Teko';
+  font-size: 25px;
+}
+
+h6 {
+  font-family: 'Teko';
+  font-size: 25px;
+}
+
+p {
+  font-family: 'Teko';
+  font-size: 30px;
+}
+
+
+
+h10 {
+  font-family: 'Teko';
+  font-size: 30px;
+}
+
+a {
+  font-family: 'Teko';
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+
+.jumbotron {
+  background-image: url("https://lh4.googleusercontent.com/b3apoAgKNpJWP6YFrB7vF7Ef47CQkdUovOWKtrfFOyhoYFKERppqiReTGJthXTjPxBW06Q74Ac6LdWrISC-qGg_Ts5BCfJ-vdUx6kvk_ZORp7MVVff9JrlqkgwxYMk2HnQ=w1280");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 2300px 270px; /* Resize the background image to cover the entire container */
+  color: white;
+}
